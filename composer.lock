@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a736a817c023df9a07c982ffb5f7b2c9",
+    "content-hash": "19b67f2de46dd34292fd11a78e5015d3",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1457,6 +1457,38 @@
                 }
             ],
             "time": "2023-01-14T14:17:03+00:00"
+        },
+        {
+            "name": "ferdyrurka/single-tenant-vendor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lukaszstaniszewskidotpl/single-tenant-vendor",
+                "reference": "e45b61c82f98e8a1b689f79bd30bfe5d55bb649c"
+            },
+            "require": {
+                "php": ">=8.2",
+                "symfony/config": "^6.2",
+                "symfony/framework-bundle": "^6.2",
+                "symfony/http-kernel": "^6.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ferdyrurka\\SingleTenantVendor\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Łukasz Staniszewski",
+                    "email": "kontakt@lukaszstaniszewski.pl"
+                }
+            ],
+            "time": "2023-05-12T20:17:36+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -9466,12 +9498,14 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "ferdyrurka/single-tenant-vendor": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.1",
+        "php": ">=8.2",
         "ext-ctype": "*",
         "ext-iconv": "*"
     },
