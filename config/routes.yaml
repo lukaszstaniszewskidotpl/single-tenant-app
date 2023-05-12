@@ -4,5 +4,8 @@ controllers:
         namespace: App\Controller
     type: attribute
 
-single_tenant_app:
+single_tenant_vendor:
     resource: "@SingleTenantVendorBundle/config/routing.yaml"
+
+single_tenant_vendor_bridge:
+    resource: "@SingleTenantVendorBridgeBundle/config/routing.yaml"
