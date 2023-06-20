@@ -41,6 +41,9 @@
     "ferdyrurka/single-tenant-vendor-bridge": {
         "version": "dev-master"
     },
+    "ferdyrurka/single-tenant-vendor-client": {
+        "version": "dev-master"
+    },
     "phpunit/phpunit": {
         "version": "9.6",
         "recipe": {

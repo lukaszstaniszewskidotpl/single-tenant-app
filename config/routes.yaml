@@ -6,6 +6,3 @@ controllers:
 
 single_tenant_vendor:
     resource: "@SingleTenantVendorBundle/config/routing.yaml"
-
-single_tenant_vendor_bridge:
-    resource: "@SingleTenantVendorBridgeBundle/config/routing.yaml"

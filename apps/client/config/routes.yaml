@@ -1,0 +1,2 @@
+single_tenant_vendor_bridge:
+  resource: "@SingleTenantVendorClientBundle/config/routing.yaml"
